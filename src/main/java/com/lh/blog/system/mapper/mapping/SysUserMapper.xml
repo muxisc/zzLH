@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lh.blog.system.mapper.SysUserMapper" >
+  <resultMap id="BaseResultMap" type="com.lh.blog.system.model.SysUser" >
+    <!--
+      WARNING - @frameworkgenerated
+    -->
+    <result column="uid" property="uid" jdbcType="VARCHAR" />
+    <result column="user_username" property="user_username" jdbcType="VARCHAR" />
+    <result column="user_password" property="user_password" jdbcType="VARCHAR" />
+    <result column="user_password_salt" property="user_password_salt" jdbcType="VARCHAR" />
+    <result column="user_identity" property="user_identity" jdbcType="VARCHAR" />
+    <result column="user_real_name" property="user_real_name" jdbcType="VARCHAR" />
+    <result column="user_email" property="user_email" jdbcType="VARCHAR" />
+    <result column="user_create_time" property="user_create_time" jdbcType="TIMESTAMP" />
+    <result column="user_last_login_time" property="user_last_login_time" jdbcType="TIMESTAMP" />
+    <result column="user_status" property="user_status" jdbcType="VARCHAR" />
+    <result column="user_desc" property="user_desc" jdbcType="VARCHAR" />
+    <result column="user_dept" property="user_dept" jdbcType="VARCHAR" />
+    <result column="user_phone" property="user_phone" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  <resultMap id="BaseResultMapDto" type="com.lh.blog.system.dto.SysUserDto" extends="BaseResultMap">
+     <result column="orgName" property="userdeptname" jdbcType="VARCHAR" />
+             
+  </resultMap>
+  
+  <sql id="sql_where">
+  
+     <if test="uid != null and uid != ''">
+       and a.uid=#{uid}
+     </if>
+  
+     <if test="username !=null and username != ''">
+       and a.user_username=#{username}
+     </if>
+     
+     <if test="user_username !=null and user_username != ''">
+       and a.user_username=#{user_username}
+     </if>
+     
+     <if test="user_real_name !=null and user_real_name != ''">
+      and a.user_real_name=#{user_real_name}
+     </if>
+  
+  </sql>
+  
+  <select id="selectByUsername" parameterType="Map" resultMap="BaseResultMapDto">
+    SELECT 
+	  a.uid,a.user_username,a.user_password,a.user_password_salt,a.user_identity,a.user_real_name,
+	  a.user_email,a.user_create_time,a.user_last_login_time,a.user_status,a.user_desc,a.user_dept,a.user_phone,
+	  b.orgName 
+    FROM
+      sys_user a 
+	LEFT JOIN 
+	  sys_depart b 
+	ON 
+	  a.user_dept = b.orgCoding 
+    WHERE  1=1
+    <include refid="sql_where"></include>
+   
+    ORDER BY a.user_create_time DESC             <!--必须在where之后-->
+  </select>
+    
+  
+  <select id="selectAllUsers" parameterType="Map" resultMap="BaseResultMapDto">
+  
+    SELECT a.uid,a.user_username,user_password,user_password_salt,a.user_identity,
+           a.user_real_name,a.user_email,a.user_create_time,a.user_last_login_time,
+           a.user_status,a.user_desc,a.user_phone,b.orgName
+	FROM sys_user a
+	LEFT JOIN sys_depart b
+	ON a.user_dept = b.orgCoding
+	where 1=1
+	<include refid="sql_where"></include>
+	
+    ORDER BY a.user_create_time desc
+  </select>
+  
+  
+  
+</mapper>

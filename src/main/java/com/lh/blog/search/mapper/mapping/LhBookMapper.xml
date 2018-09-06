@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lh.blog.search.mapper.LhBookMapper" >
+  <resultMap id="BaseResultMap" type="com.lh.blog.search.model.LhBook" >
+    <!--
+      WARNING - @frameworkgenerated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="uid" property="uid" jdbcType="VARCHAR" />
+    <result column="bookName" property="bookName" jdbcType="VARCHAR" />
+    <result column="bookState" property="bookState" jdbcType="VARCHAR" />
+    <result column="bookNumber" property="bookNumber" jdbcType="VARCHAR" />
+    <result column="author" property="author" jdbcType="VARCHAR" />
+    <result column="publishDate" property="publishDate" jdbcType="DATE" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="authorDesc" property="authorDesc" jdbcType="VARCHAR" />
+    <result column="bookDesc" property="bookDesc" jdbcType="VARCHAR" />
+    <result column="bookType" property="bookType" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  <sql id="sql_where">
+          <where>
+			   <if test="keyword !=null and keyword !=''">
+			      (
+				      bookName like CONCAT('%',#{keyword},'%')
+				      OR bookNumber=#{keyword}
+				      OR author like CONCAT('%',#{keyword},'%')
+				      OR address like CONCAT('%',#{keyword},'%')
+			      )
+			   </if>
+			   <if test="keywordType !=null and keywordType !=''">
+			      AND bookType =#{keywordType}
+			   </if>
+	      </where>
+  </sql>
+  
+  
+  <select id="getPageList" parameterType="Map" resultMap="BaseResultMap">
+    SELECT uid,bookName,bookNumber,author,publishDate,address,authorDesc,bookDesc,bookState,bookType
+	FROM   lh_book
+	<include refid="sql_where"></include>
+	ORDER BY publishDate DESC
+  </select>
+  
+  <select id="getListTotal" parameterType="Map" resultType="Integer">
+    SELECT count(*)
+    FROM lh_book
+    <include refid="sql_where"></include>
+  </select>
+  
+</mapper>

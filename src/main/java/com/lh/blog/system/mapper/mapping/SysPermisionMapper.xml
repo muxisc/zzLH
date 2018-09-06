@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lh.blog.system.mapper.SysPermisionMapper" >
+  <resultMap id="BaseResultMap" type="com.lh.blog.system.model.SysPermision" >
+    <!--
+      WARNING - @frameworkgenerated
+    -->
+    <result column="uid" property="uid" jdbcType="VARCHAR" />
+    <result column="permision_name" property="permision_name" jdbcType="VARCHAR" />
+    <result column="permision_parent_id" property="permision_parent_id" jdbcType="VARCHAR" />
+    <result column="permision_type" property="permision_type" jdbcType="VARCHAR" />
+    <result column="permision_sort" property="permision_sort" jdbcType="INTEGER" />
+    <result column="permision_url" property="permision_url" jdbcType="VARCHAR" />
+    <result column="permision_related_url" property="permision_related_url" jdbcType="VARCHAR" />
+    <result column="permision_desc" property="permision_desc" jdbcType="VARCHAR" />
+    <result column="permision_state" property="permision_state" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  <select id="selectUserPermisons" parameterType="Map" resultMap="BaseResultMap">
+  	SELECT DISTINCT
+  	       c.uid,c.permision_name,c.permision_parent_id,c.permision_type,c.permision_sort,c.permision_url,c.permision_related_url,
+           c.permision_desc,c.permision_state
+	FROM   sys_user_role a,sys_role_permision b,sys_permision c
+	WHERE  a.ur_user_id=#{userId}
+	AND    a.ur_role_id=b.rp_role_id
+	AND    b.rp_permision_id=c.uid
+	ORDER BY c.permision_sort
+  
+  </select>
+  
+  <select id="selectAllPermisions" resultMap="BaseResultMap">
+    SELECT *
+    FROM sys_permision
+  
+  </select>
+  
+  
+</mapper>

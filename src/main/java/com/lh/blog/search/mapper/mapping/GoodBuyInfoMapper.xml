@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lh.blog.search.mapper.GoodBuyInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.lh.blog.search.model.GoodBuyInfo" >
+    <!--
+      WARNING - @frameworkgenerated
+    -->
+    <id column="buyId" property="buyId" jdbcType="INTEGER" />
+    <result column="goodId" property="goodId" jdbcType="INTEGER" />
+    <result column="goodName" property="goodName" jdbcType="VARCHAR" />
+    <result column="goodPrice" property="goodPrice" jdbcType="DECIMAL" />
+    <result column="buyAmount" property="buyAmount" jdbcType="INTEGER" />
+    <result column="buyTotalPrice" property="buyTotalPrice" jdbcType="DECIMAL" />
+    <result column="buyDate" property="buyDate" jdbcType="TIMESTAMP" />
+    <result column="supplierName" property="supplierName" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  
+  
+  <select id="selectAllUsers" parameterType="Map" resultMap="BaseResultMap">
+  
+    SELECT *
+	FROM goodbuyinfo
+	
+	
+  </select>
+</mapper>

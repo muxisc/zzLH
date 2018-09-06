@@ -1,0 +1,114 @@
+2017-10-31 11:15:10,156 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-10-31 11:15:10,174 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-31 11:15:10,174 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2017-10-31 11:15:10,175 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-10-31 11:15:10,175 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-31 11:15:10,176 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2017-10-31 11:15:10,176 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2017-10-31 11:15:10,177 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@2205a05d
+2017-10-31 11:15:10,194 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2017-10-31 11:15:10,427 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 11:15:10,454 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 11:15:10,466 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 11:29:03,730 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-10-31 11:29:03,743 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-31 11:29:03,743 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2017-10-31 11:29:03,744 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-10-31 11:29:03,744 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-31 11:29:03,744 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2017-10-31 11:29:03,744 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2017-10-31 11:29:03,746 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@42e25b0b
+2017-10-31 11:29:03,766 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2017-10-31 11:29:03,997 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 11:29:04,016 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 11:29:04,027 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 11:32:37,961 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-10-31 11:32:37,975 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-31 11:32:37,975 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2017-10-31 11:32:37,976 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-10-31 11:32:37,977 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-31 11:32:37,977 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2017-10-31 11:32:37,977 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2017-10-31 11:32:37,978 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5f20155b
+2017-10-31 11:32:37,996 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2017-10-31 11:32:38,229 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 11:32:38,248 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 11:32:38,259 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 13:42:51,171 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-10-31 13:42:51,185 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-31 13:42:51,185 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2017-10-31 13:42:51,186 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-10-31 13:42:51,186 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-31 13:42:51,187 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2017-10-31 13:42:51,187 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2017-10-31 13:42:51,188 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@42e25b0b
+2017-10-31 13:42:51,206 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2017-10-31 13:42:51,436 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 13:42:51,455 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 13:42:51,466 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 15:57:59,841 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-10-31 15:57:59,865 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-31 15:57:59,865 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2017-10-31 15:57:59,866 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-10-31 15:57:59,866 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-31 15:57:59,866 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2017-10-31 15:57:59,866 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2017-10-31 15:57:59,867 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5e21e98f
+2017-10-31 15:57:59,885 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2017-10-31 15:58:00,118 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 15:58:00,144 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 15:58:00,155 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 17:27:40,632 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-10-31 17:27:40,656 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-10-31 17:27:40,657 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2017-10-31 17:27:40,658 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-10-31 17:27:40,658 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-10-31 17:27:40,658 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2017-10-31 17:27:40,658 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2017-10-31 17:27:40,659 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5e21e98f
+2017-10-31 17:27:40,677 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2017-10-31 17:27:40,900 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 17:27:40,922 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 17:27:40,934 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1

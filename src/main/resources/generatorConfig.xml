@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<!DOCTYPE generatorConfiguration    
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"    
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">    
+    
+<generatorConfiguration>    
+    <context id="sqlserverTables" targetRuntime="MyBatis3Simple" defaultModelType="flat">    
+        
+        <!-- 模块包名 -->
+        <!-- <property name="modulePackage" value="com.lh.blog.system"/> -->
+        <property name="modulePackage" value="com.lh.blog.search"/>
+        <!-- 生成项目 -->
+        <property name="targetProject" value="src/main/java"/>
+
+        <!-- 生成Model序列化接口 -->
+        <plugin type="com.icinfo.framework.generator.plugins.SerializablePlugin"/>
+        <!-- 生成DTO类 -->
+        <plugin type="com.icinfo.framework.generator.plugins.DtoPlugin"/>
+        <!-- 生成Service接口及实现类 -->
+        <plugin type="com.icinfo.framework.generator.plugins.ServicePlugin"/>
+        <!-- 生成Controller类 -->
+        <plugin type="com.icinfo.framework.generator.plugins.ControllerPlugin"/>
+        <!-- 生成Mapper接口及SqlMap文件 -->
+        <plugin type="com.icinfo.framework.generator.plugins.MapperPlugin">
+            <property name="mappers" value="com.icinfo.framework.mybatis.mapper.common.Mapper"/>
+            <!-- caseSensitive默认false，当数据库表名区分大小写时，可以将该属性设置为true -->
+            <property name="caseSensitive" value="true"/>
+        </plugin>
+
+
+        <!--数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/lh" userId="root"
+                        password="">
+        </jdbcConnection>
+
+
+       <!--      
+                                     默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer Long   
+            true，把JDBC DECIMAL 和 NUMERIC 类型解析为java.math.BigDecimal      
+        -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="true"/>
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="${modulePackage}.model" targetProject="${targetProject}"/>
+
+        <sqlMapGenerator targetPackage="${modulePackage}.mapper.mapping" targetProject="${targetProject}"/>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="${modulePackage}.mapper" targetProject="${targetProject}"/>
+
+
+        <!-- 修改表名和对应类名   运行GeneratorMain.java即可生成对应的-->
+
+        <table tableName="xxxx" domainObjectName="xxxx" schema="lh">
+            <!--数据库列名与属性名一致-->
+            <property name="useActualColumnNames" value="true"/>
+            <!--唯一主键  该属性必须写  到时生成的实体中id注解给注释掉-->
+            <generatedKey column="id" sqlStatement="select replace(uuid(), '-', '')" type="pre" />  
+            <!--自增主键-->
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+            <columnRenamingRule searchString="^RP_" replaceString=""/>
+        </table>
+        
+        
+    </context>    
+</generatorConfiguration>      

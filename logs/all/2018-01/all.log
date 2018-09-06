@@ -1,0 +1,56 @@
+2018-01-10 10:43:28,248 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-01-10 10:43:28,286 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 权限加载完成，共耗时：0秒
+2018-01-10 10:43:28,286 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 加载权限信息列表：
+2018-01-10 10:43:28,286 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin=anon
+2018-01-10 10:43:28,286 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/=anon
+2018-01-10 10:43:28,286 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/dashboard=anon
+2018-01-10 10:43:28,287 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/login=anon
+2018-01-10 10:43:28,287 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/logout=logout
+2018-01-10 10:43:28,287 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/error/**=anon
+2018-01-10 10:43:28,287 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/**=anon
+2018-01-10 10:43:28,287 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /**=anon
+2018-01-10 10:43:28,287 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-01-10 10:43:28,402 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-01-10 10:43:28,411 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-10 10:43:28,411 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2018-01-10 10:43:28,412 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-01-10 10:43:28,413 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-10 10:43:28,413 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-01-10 10:43:28,413 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2018-01-10 10:43:28,414 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@333dd51e
+2018-01-10 10:43:28,484 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-01-10 10:45:48,414 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 权限加载完成，共耗时：0秒
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 加载权限信息列表：
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin=anon
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/=anon
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/dashboard=anon
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/login=anon
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/logout=logout
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/error/**=anon
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/**=anon
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /**=anon
+2018-01-10 10:45:48,416 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-01-10 10:45:48,566 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-01-10 10:45:48,576 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-10 10:45:48,576 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2018-01-10 10:45:48,577 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-01-10 10:45:48,578 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-01-10 10:45:48,578 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-01-10 10:45:48,578 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2018-01-10 10:45:48,579 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@ec2cc4
+2018-01-10 10:45:48,650 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.

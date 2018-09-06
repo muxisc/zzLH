@@ -1,0 +1,8 @@
+2017-10-11 11:00:20,544 [main] INFO  com.lh.blog.controller.TestController - =====info
+2017-10-11 11:00:58,073 [main] INFO  com.lh.blog.controller.TestController - =====info
+2017-10-11 17:07:32,734 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-11 17:07:32,761 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-11 17:07:32,804 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-11 17:14:51,041 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-11 17:14:51,069 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-11 17:14:51,081 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1

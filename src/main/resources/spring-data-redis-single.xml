@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"  
+    xmlns:context="http://www.springframework.org/schema/context"  
+    xmlns:mvc="http://www.springframework.org/schema/mvc"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans    
+        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd    
+        http://www.springframework.org/schema/context    
+        http://www.springframework.org/schema/context/spring-context-3.1.xsd    
+        http://www.springframework.org/schema/mvc    
+        http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">  
+ 
+    <!-- 该Redis配置适用：  Redis单机或主从模式 -->
+    
+	<!-- Redis连接池配置 -->
+	<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">  
+	    <!-- 最大空闲数 -->
+        <property name="maxIdle" value="6"></property>  
+        <property name="minEvictableIdleTimeMillis" value="300000"></property>  
+        <property name="numTestsPerEvictionRun" value="3"></property>  
+        <property name="timeBetweenEvictionRunsMillis" value="60000"></property>   
+    </bean>  
+    <!-- Redis连接工厂 -->     <!-- localhost默认redis.ip：127.0.0.1，port -->
+    <bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory" destroy-method="destroy">  
+        <property name="poolConfig" ref="jedisPoolConfig"></property>  
+        <property name="hostName" value="127.0.0.1"></property>  
+        <property name="port" value="6379"></property>  
+        <property name="timeout" value="15000"></property>  
+        <property name="usePool" value="true"></property> 
+    </bean>  
+    <!-- Redis操作模板 -->
+    <bean id="jedisTemplate" class="org.springframework.data.redis.core.RedisTemplate">  
+        <property name="connectionFactory" ref="jedisConnectionFactory"></property>
+        <!-- 序列化和反序列化redis的key和value值   -->
+        <property name="keySerializer">  
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>  
+        </property>  
+        <property name="valueSerializer">  
+            <!-- <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>   -->
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+        </property>  
+    </bean>  
+</beans>

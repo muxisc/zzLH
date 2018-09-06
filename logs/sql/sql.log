@@ -1,0 +1,66 @@
+2017-10-11 17:07:32,734 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-11 17:07:32,761 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-11 17:07:32,804 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-11 17:14:51,041 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-11 17:14:51,069 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-11 17:14:51,081 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-12 09:01:44,183 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-12 09:01:44,237 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-12 09:01:44,290 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-12 10:17:36,236 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-12 10:17:36,271 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-12 10:17:36,285 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-12 11:21:15,594 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-12 11:21:15,632 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-12 11:21:15,644 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-12 11:25:57,392 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-12 11:25:57,419 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-12 11:25:57,433 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-13 10:14:19,730 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-13 10:14:19,752 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-13 10:14:19,782 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-27 16:33:43,689 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-27 16:33:43,726 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-27 16:33:43,872 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-27 17:21:12,294 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-27 17:21:12,313 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-27 17:21:12,325 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 11:15:10,427 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 11:15:10,454 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 11:15:10,466 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 11:29:03,997 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 11:29:04,016 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 11:29:04,027 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 11:32:38,229 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 11:32:38,248 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 11:32:38,259 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 13:42:51,436 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 13:42:51,455 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 13:42:51,466 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 15:58:00,118 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 15:58:00,144 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 15:58:00,155 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-10-31 17:27:40,900 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-31 17:27:40,922 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-31 17:27:40,934 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-11-02 13:41:47,603 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-11-02 13:41:47,622 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-11-02 13:41:47,635 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-11-08 10:37:22,019 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-11-08 10:37:22,038 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-11-08 10:37:22,061 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-11-08 13:36:26,947 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-11-08 13:36:26,968 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-11-08 13:36:26,981 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-11-10 09:43:52,579 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-11-10 09:43:52,597 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-11-10 09:43:52,611 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-11-10 09:45:38,356 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-11-10 09:45:38,376 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-11-10 09:45:38,388 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-11-10 10:24:31,679 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-11-10 10:24:31,697 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-11-10 10:24:31,711 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
+2017-11-10 10:38:43,167 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-11-10 10:38:43,185 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-11-10 10:38:43,198 [main] DEBUG com.lh.blog.system.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1

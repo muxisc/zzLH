@@ -1,0 +1,180 @@
+2018-02-26 11:18:54,486 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 11:18:54,490 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 权限加载完成，共耗时：0秒
+2018-02-26 11:18:54,490 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 加载权限信息列表：
+2018-02-26 11:18:54,490 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin=anon
+2018-02-26 11:18:54,490 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/=anon
+2018-02-26 11:18:54,490 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/dashboard=anon
+2018-02-26 11:18:54,490 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/login=anon
+2018-02-26 11:18:54,491 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/logout=logout
+2018-02-26 11:18:54,491 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/error/**=anon
+2018-02-26 11:18:54,491 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/**=anon
+2018-02-26 11:18:54,491 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /**=anon
+2018-02-26 11:18:54,491 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 11:18:54,595 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-02-26 11:18:54,597 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2018-02-26 11:18:54,607 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-26 11:18:54,607 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2018-02-26 11:18:54,608 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-02-26 11:18:54,608 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-26 11:18:54,608 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-02-26 11:18:54,608 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2018-02-26 11:18:54,608 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-02-26 11:18:54,609 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-02-26 11:18:54,609 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-02-26 11:18:54,609 [main] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
+2018-02-26 11:26:49,031 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 11:26:49,033 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 权限加载完成，共耗时：0秒
+2018-02-26 11:26:49,033 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 加载权限信息列表：
+2018-02-26 11:26:49,033 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin=anon
+2018-02-26 11:26:49,033 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/=anon
+2018-02-26 11:26:49,034 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/dashboard=anon
+2018-02-26 11:26:49,034 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/login=anon
+2018-02-26 11:26:49,034 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/logout=logout
+2018-02-26 11:26:49,034 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/error/**=anon
+2018-02-26 11:26:49,034 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/**=anon
+2018-02-26 11:26:49,034 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /**=anon
+2018-02-26 11:26:49,034 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 11:26:49,141 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-02-26 11:26:49,143 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2018-02-26 11:26:49,152 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-26 11:26:49,152 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2018-02-26 11:26:49,153 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-02-26 11:26:49,153 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-26 11:26:49,154 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-02-26 11:26:49,154 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2018-02-26 11:26:49,154 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-02-26 11:26:49,154 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-02-26 11:26:49,154 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-02-26 11:26:49,154 [main] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
+2018-02-26 13:35:16,327 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 13:35:16,330 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 权限加载完成，共耗时：0秒
+2018-02-26 13:35:16,330 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 加载权限信息列表：
+2018-02-26 13:35:16,330 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin=anon
+2018-02-26 13:35:16,330 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/=anon
+2018-02-26 13:35:16,330 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/dashboard=anon
+2018-02-26 13:35:16,330 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/login=anon
+2018-02-26 13:35:16,330 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/logout=logout
+2018-02-26 13:35:16,330 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/error/**=anon
+2018-02-26 13:35:16,330 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/**=anon
+2018-02-26 13:35:16,330 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /**=anon
+2018-02-26 13:35:16,331 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 13:35:16,442 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-02-26 13:35:16,444 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2018-02-26 13:35:16,452 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-26 13:35:16,453 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2018-02-26 13:35:16,453 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-02-26 13:35:16,454 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-26 13:35:16,454 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-02-26 13:35:16,454 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2018-02-26 13:35:16,454 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-02-26 13:35:16,454 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-02-26 13:35:16,454 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-02-26 13:35:16,455 [main] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
+2018-02-26 13:43:48,603 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 13:43:48,605 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 权限加载完成，共耗时：0秒
+2018-02-26 13:43:48,605 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 加载权限信息列表：
+2018-02-26 13:43:48,605 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin=anon
+2018-02-26 13:43:48,605 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/=anon
+2018-02-26 13:43:48,606 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/dashboard=anon
+2018-02-26 13:43:48,606 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/login=anon
+2018-02-26 13:43:48,606 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/logout=logout
+2018-02-26 13:43:48,606 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/error/**=anon
+2018-02-26 13:43:48,606 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/**=anon
+2018-02-26 13:43:48,606 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /**=anon
+2018-02-26 13:43:48,606 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 13:43:48,843 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-02-26 13:43:48,855 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-26 13:43:48,856 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2018-02-26 13:43:48,856 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-02-26 13:43:48,857 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-26 13:43:48,857 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-26 13:43:48,857 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2018-02-26 13:43:48,859 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@18cebaa5
+2018-02-26 13:43:48,974 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-26 13:55:36,406 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 13:55:36,408 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 权限加载完成，共耗时：0秒
+2018-02-26 13:55:36,408 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 加载权限信息列表：
+2018-02-26 13:55:36,408 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin=anon
+2018-02-26 13:55:36,408 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/=anon
+2018-02-26 13:55:36,408 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/dashboard=anon
+2018-02-26 13:55:36,408 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/login=anon
+2018-02-26 13:55:36,408 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/logout=logout
+2018-02-26 13:55:36,409 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/error/**=anon
+2018-02-26 13:55:36,409 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/**=anon
+2018-02-26 13:55:36,409 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /**=anon
+2018-02-26 13:55:36,409 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 13:55:36,510 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-02-26 13:55:36,512 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2018-02-26 13:55:36,520 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-26 13:55:36,521 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2018-02-26 13:55:36,521 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-02-26 13:55:36,522 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-26 13:55:36,522 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-02-26 13:55:36,522 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2018-02-26 13:55:36,522 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-02-26 13:55:36,522 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-02-26 13:55:36,523 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-02-26 13:55:36,523 [main] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
+2018-02-26 13:58:38,741 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 权限加载完成，共耗时：0秒
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - 加载权限信息列表：
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin=anon
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/=anon
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/dashboard=anon
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/login=anon
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/logout=logout
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/error/**=anon
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /admin/**=anon
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - /**=anon
+2018-02-26 13:58:38,743 [main] INFO  com.icinfo.framework.security.shiro.DefaultShiroChainServiceImpl - ====================================================
+2018-02-26 13:58:38,965 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-02-26 13:58:38,977 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-26 13:58:38,977 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+2018-02-26 13:58:38,978 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-02-26 13:58:38,979 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-26 13:58:38,979 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-26 13:58:38,979 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.3
+2018-02-26 13:58:38,981 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@43aaf813
+2018-02-26 13:58:39,081 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.

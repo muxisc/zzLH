@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lh.blog.search.mapper.GoodInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.lh.blog.search.model.GoodInfo" >
+    <!--
+      WARNING - @frameworkgenerated
+    -->
+    <id column="goodId" property="goodId" jdbcType="INTEGER" />
+    <result column="goodClassId" property="goodClassId" jdbcType="VARCHAR" />
+    <result column="goodName" property="goodName" jdbcType="VARCHAR" />
+    <result column="goodPrice" property="goodPrice" jdbcType="DECIMAL" />
+    <result column="goodPlace" property="goodPlace" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  <sql id="sql_where">
+  
+     <if test="goodId != null and goodId != ''">
+       and goodId LIKE '%#{goodId}%'
+     </if>
+  
+     <if test="goodName !=null and goodName != ''">
+       and goodName LIKE '%#{goodName}%'
+     </if>
+     
+  </sql>
+  
+  
+  <select id="selectAllUsers" parameterType="Map" resultMap="BaseResultMap">
+  
+    SELECT *
+	FROM goodinfo
+	<where>
+	<if test="goodName !=null and goodName != ''">
+       goodName LIKE concat(concat('%',#{goodName}),'%')
+     </if>
+	
+	</where> 
+	
+  </select>
+  
+  
+</mapper>

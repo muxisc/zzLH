@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lh.blog.search.mapper.EmployeeInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.lh.blog.search.model.EmployeeInfo" >
+    <!--
+      WARNING - @frameworkgenerated
+    -->
+    <id column="employeeId" property="employeeId" jdbcType="INTEGER" />
+    <result column="employeeName" property="employeeName" jdbcType="VARCHAR" />
+    <result column="employeeSex" property="employeeSex" jdbcType="CHAR" />
+    <result column="employeeCerNo" property="employeeCerNo" jdbcType="VARCHAR" />
+    <result column="employeePhone" property="employeePhone" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  
+  
+  <select id="selectAllUsers" parameterType="Map" resultMap="BaseResultMap">
+  
+    SELECT *
+	FROM employeeinfo
+	
+  </select>
+</mapper>

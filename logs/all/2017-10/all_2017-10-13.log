@@ -1,0 +1,3 @@
+2017-10-13 10:14:19,730 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2017-10-13 10:14:19,752 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2017-10-13 10:14:19,782 [main] DEBUG com.lh.blog.mapper.UserMapper.selectByPrimaryKey - <==      Total: 1
